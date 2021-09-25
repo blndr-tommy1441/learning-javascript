@@ -28,7 +28,6 @@ span{
   color: var(--span-color);
 }
 
-git status -s
 .container{
   width: 80%;
   margin: 0 auto;
