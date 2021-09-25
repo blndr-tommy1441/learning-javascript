@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAVASCRIPT | Objects</title>
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+<body>
+    <h1>Different kind of outputs</h1>
+    <section class="outputs max__width">
+        <p>There are 4 different types of outputs in Javascript.</p>
+        <br>
+        <h2>Alerts</h2>
+        <p>The alerts create a pop up window that <span>"alerts"</span> the user of some important info i.e <span>errors, browser not supported, etc.</span></p>
+        <br>
+        <h3>Syntax</h3>
+        <br>
+        <p><span>alert</span>("Message to be displayed");</p>
+        <br>
+        <br>
+        <br>
+        <h2>Prompts</h2>
+        <p>Promts as it's name suggest, it asks the user for some kind of input data i.e. <span>name, age, etc.</span></p>
+        <p>It's worth mentioning that for this to be useful throughout the whole page, we have to store the input value in a variable.</p>
+        <br>
+        <h3>Syntax</h3>
+        <br>
+        <p><span>prompt</span>("Message to be requested");</p>
+        <br>
+        <h3>Example</h3>
+        <p>let name = prompt("What's your name");</p>
+        <br>
+        <br>
+        <h2>Console</h2>
+        <p>It displays the data in the browser's console included in the Developer's Tools section of the browser.</p>
+    
+        <br>
+        <h3>Syntax</h3>
+        <br>
+        <p><span>console.log</span>("Data to be displayed");</p>
+        <br>
+        <br>
+        <br>
+        <h2>Document</h2>
+        <p>It can write on the actual document the data.</p>
+        <br>
+        <h3>Syntax</h3>
+        <br>
+        <p><span>document.write</span>("Data to be displayed");</p>
+        <br>
+        <h3>Example</h3>
+        <br>
+        <script>document.write("This message was written directly on the page using JS");</script>
+    </section>
+
+    <h1>JAVASCRIPT Objects</h1>
+<section class="definition max__width">
+    <p>Objects are entities with a collection of properties</p><br>
+    <h2>Syntax</h2>
+    <p>let <span>name</span>=
+    {<br>
+        <p>property name: "<span>actual property</span>"</p>
+    }
+    </p>
+    <br>
+    <br>
+    <h2>Example</h2>
+    <p>let camera=
+        {<br>
+            <p>name: "Canon",</p>
+            <p>model: "350D",</p>
+            <p>price: "400$"</p>
+        }
+    </p>
+    <br>
+    <br>
+    <h2>Access properties</h2>
+    <p>To acces properties of an object we can do by using:</p>
+    <p>console.log(camera.name)</p>
+    <p>console.log(camera.model)</p>
+    <br>
+    <br>
+    <p>We can also call using a variable, for example:</p>
+    <p>let p = "model";</p>
+    <p>console.log(camera[p]);</p>
+</section>
+<section class="buttons">
+    <p id="test">
+        <button name="testing" onClick="location.href='index.html'">Click Here</button>
+    </p>
+</section>
+
+
+
+
+
+
+
+
+<div class="footer">
+    <p>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+            alt="Valid CSS!" />
+        </a>
+    </p>
+</div>
+
+
+
+<script src="./src/scripts/objects.js">
+</script>
+
+</body>
+</html>

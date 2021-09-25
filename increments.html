@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./src/css/increment_style.css">
+  <title>Increments in Javascript</title>
+</head>
+<body>
+  
+<div class="container">
+
+  <div class="first--div">
+    <h2>Increments</h2>
+    <p>this is the initial value assigned to the variable via the prompt <span id="value"></span></p>
+  
+    <p>this has incremented the initial value by one <span id="value2"></span> by using the <span>'++'</span></p>
+    <p>this has decreased the initial value by one <span id="value3"></span> by using the <span>'--'</span></p>
+  </div>
+
+  <div class="second--div">
+    <h2>Shorthands</h2>
+    <p>now we are going to use a shorthand for addition, substraction, multiplication and division of a variable</p>
+    <input type="text" id="num" placeholder="Enter a Number">
+    <br>
+    <button onclick="myFunction()" id="bttn">Click me</button>
+    <p>this is the initial value assigned to the variable via the input box <span id="value4"></span></p>
+    <p>this value is the result of adding the original value using the <span>var += 3</span> shorthand <span id="value5"></span></p>
+    <p>this value is the result of adding the original value using the <span>var -= 3</span> shorthand <span id="value6"></span></p>
+    <p>this value is the result of adding the original value using the <span>var *= 3</span> shorthand <span id="value7"></span></p>
+    <p>this value is the result of adding the original value using the <span>var /= 3</span> shorthand <span id="value8"></span></p>
+
+
+  </div>
+</div>
+
+
+  <script src="./src/scripts/increments.js"></script>
+</body>
+</html>
