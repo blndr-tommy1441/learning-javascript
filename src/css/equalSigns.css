@@ -26,3 +26,12 @@ h2{
   font-style: italic;
   margin-bottom: .75rem;;
 }
+
+.code{
+  font-style: italic;
+  font-size: 1.1rem;
+  color:#26a89d;
+}
+.examples{
+  margin-bottom: 2rem;
+}
