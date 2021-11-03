@@ -14,24 +14,31 @@
     </header>
 
     <section class="examples">
-      <h2>Key Differences</h2>
-      <p>= is used for assigning values to a variable, == is used for comparing two variables, but it ignores the datatype of variable whereas === is used for comparing two variables, but this operator also checks datatype and compares two values.</p>
-      <p>= is called as assignment operator, == and === are called comparison operator.</p>
-      <p>= does not return true or false, == Return true only if the two operands are equal while === returns true only if both values and data types are the same for the two variables.</p>
+    <h2>Key Differences</h2>
+    <p>= is used for assigning values to a variable, == is used for comparing two variables, but it ignores the datatype of variable whereas === is used for comparing two variables, but this operator also checks datatype and compares two values.</p>
+    <p>= is called as assignment operator, == and === are called comparison operator.</p>
+    <p>= does not return true or false, == Return true only if the two operands are equal while === returns true only if both values and data types are the same for the two variables.</p>
     </section>
-    <section class="examples">
-      <h2>Examples of =</h2>
-      <p>A typical use of the single equal sing (=) is whenever we are asigning a value to a variable or when doing math.</p>
-      <p><span class="code">let a = 10;</span></p>
-      <p><span class="code">let c = a+b;</span></p>
-      <h2>Examples of ==</h2>
-      <p>A typical use of the double equal sing (==) is whenever we are checking if a value is equal to another but with the caviat that the result is either true or false.</p>
-      <p><span class="code">let a = 10;</span></p>
-      <p><span class="code">let b = 20;</span></p>
-      <p><span class="code">console.log(a==b);</span></p>
-      <p><span class="code">the value returned it's going to be FALSE as 10 is NOT equal to 20</span></p>
-
-    </section>
+    <div class="main"></div>
+      <section class="examples">
+        <h2>Examples of =</h2>
+        <p>A typical use of the single equal sing (=) is whenever we are asigning a value to a variable or when doing math.</p>
+        <p><span class="code">let a = 10;</span></p>
+        <p><span class="code">let c = a+b;</span></p>
+        <h2>Examples of ==</h2>
+        <p>A typical use of the double equal sing (==) is whenever we are checking if a value is equal to another regardless if it is a string or a number, and the result that returns is either true or false.</p>
+        <p><span class="code">let a = 10;</span></p>
+        <p><span class="code">let b = 20;</span></p>
+        <p><span class="code">console.log(a==b);</span></p>
+        <p><span class="code">the value returned it's going to be FALSE as 10 is NOT equal to 20</span></p>
+        <h2>Examples of ===</h2>
+        <p>A typical use of the triple equal sing (===) is whenever we are checking if a value is equal to another in type and value and the output that returns is either true or false.</p>
+        <p><span class="code">let a = 10;</span></p>
+        <p><span class="code">let b = "20";</span></p>
+        <p><span class="code">console.log(a===b);</span></p>
+        <p><span class="code">the value returned it's going to be FALSE as 10 is NOT equal to 20 in type and value</span></p>
+      </section>
+    </div>
 
 
 
