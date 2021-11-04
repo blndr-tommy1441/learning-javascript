@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1rem;
+}
+
+.container{
+  width: 85%;
+  margin: 0 auto;
+}
+
+header{
+  text-align: center;
+  margin: 1rem 0;
+}
+
+h1{
+  font-size: 2.5rem;
+}
+h2{
+  font-style: italic;
+  margin-top: 1.125rem;
+}
+
+.main{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.code{
+  font-style: italic;
+  font-size: 1.1rem;
+  color:#26a89d;
+}
+.examples{
+  margin-bottom: 2rem;
+}
