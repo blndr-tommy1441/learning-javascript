@@ -5,21 +5,21 @@
 // alert(`Hola ${nombre}`);
 
 
-// function changeTheme() {
-// 	var x = document.getElementById("bttnTXT");
-//   if (x.innerHTML === "Dark Theme") {
-//     x.innerHTML = "Light Theme";
-//   } else {
-//     x.innerHTML = "Dark Theme";
-//   }
+/*function changeTheme() {
+	var x = document.getElementById("bttnTXT");
+  if (x.innerHTML === "Dark Theme") {
+    x.innerHTML = "Light Theme";
+  } else {
+    x.innerHTML = "Dark Theme";
+  }
   
-//    var element = document.body;
-//    element.classList.toggle("light-mode");
-// }
+   var element = document.body;
+   element.classList.toggle("light-mode");
+}
 
-// function testing(){
-//   alert("Hurra!!!");
-// }
+function testing(){
+  alert("Hurra!!!");
+}*/
 
 
 function dia(){
@@ -32,8 +32,8 @@ function dia(){
 // let b = 15;
 // let c = 200;
 
-// comparing logical conditionals (and, or, not)...
-// AND = && ; OR = || ; NOT = !
+/* comparing logical conditionals (and, or, not)...
+AND = && ; OR = || ; NOT = ! */
 
 // if (!c<a){
 // console.log("one of the values is true");
@@ -45,10 +45,10 @@ function dia(){
 // let arrayName = ["milk", "banana", "meat", "cookie", insideArrayVar];
 
 
-// Creating an Object in JS
-// the syntax is similar to a variable
-// but instead of adding a value
-// after the equal sign we type {}
+/* Creating an Object in JS
+the syntax is similar to a variable
+but instead of adding a value
+after the equal sign we type {} */
 
 // var person = {
 //   name: 'Tom',
@@ -58,10 +58,10 @@ function dia(){
 // };
 
 
-// CHALLANGE #1 
-// recieve 2 values (numbers)
-// then using an operator return
-// teh result on the console
+/*CHALLANGE #1 
+recieve 2 values (numbers)
+then using an operator return
+the result on the console */
 
 
 // var num1 = prompt("Type your first number"); 
@@ -88,16 +88,16 @@ function dia(){
 // calc(num1,num2,suma);
 
 
-// LOOPS
+/* LOOPS
 
-// The WHILE Loops evaluates the condition first before running the code. ENTRY CONTROL LOOP.
-// the WHILE Loop runs the code while the condition returns true....REMEMBER to ALWAYS put inside the code an increment line otherwise it will become an infinite loop.
+The WHILE Loops evaluates the condition first before running the code. ENTRY CONTROL LOOP.
+the WHILE Loop runs the code while the condition returns true....REMEMBER to ALWAYS put inside the code an increment line otherwise it will become an infinite loop.
 
-// The DO Loops evaluates the condition at the end of running the code. EXIT CONTROL LOOP.
-// The DO Loop runs the code and then checks the condition, then it runs the code again and checks the condition again.
+The DO Loops evaluates the condition at the end of running the code. EXIT CONTROL LOOP.
+The DO Loop runs the code and then checks the condition, then it runs the code again and checks the condition again.
 
-//The FOR Loop is similar to the WHILE loop, but it's syntax is shorter.
-// SYNTAX: for(variable,condition,increment){code to execute}
+The FOR Loop is similar to the WHILE loop, but it's syntax is shorter.
+SYNTAX: for(variable,condition,increment){code to execute} */
 
 
 // let a = 1;
@@ -113,8 +113,8 @@ for(let a=1;a<=10;a++){
     console.log(a);}
 }
 
-// ARRAYS
-// collection of elements of the same type
+/* ARRAYS
+collection of elements of the same type */
 
 let arr = [23,45,67,89,12];
 // to access a particular value use the INDEX value i.e. cosole.log(arr[n]);

@@ -25,6 +25,15 @@ h1{
 h2{
   font-style: italic;
   margin-top: 1.125rem;
+  background-color: #2f4f4f;
+  color: #fff;
+  display: inline;
+}
+h3{
+  display: inline;
+  font-style: italic;
+  margin-top: 1.125rem;
+  color: #4d4d4d;
 }
 
 .main{
@@ -35,7 +44,7 @@ h2{
 .code{
   font-style: italic;
   font-size: 1.1rem;
-  color:#26a89d;
+  color:#ce6b0f;
 }
 .examples{
   margin-bottom: 2rem;

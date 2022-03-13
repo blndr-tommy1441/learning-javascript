@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./src/css/equalSigns.css">
+  <title>Variables</title>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Variables</h1>
+    </header>
+
+    <section class="examples">
+    <h2>Definition</h2>
+    <p>A variable is a container of data being that a number, a string, another variable or a null or undefined value.</p>
+    <p>A variable is declared using the keyword "VAR" or "LET" or "CONST", depending of the type of variable needed. Generally speaking the keyword "VAR" is being replaced by "LET" as VAR can be re-declared and is more of a function or global variable and "LET" is more contained within it's own scope or reach</p>
+    <p>A variable can be declared in two methods, by assignment or by initializing it</p>
+    </section>
+    <div class="main"></div>
+      <section class="examples">
+        <h3>Examples of Variables</h3>
+          <p><span class="code">let a = 10;</span></p>
+          <p><span class="code">let c = a+b;</span></p>
+          <p><span class="code">const d = 50;</span></p>
+        <h3>Examples of declaring a variable by assignment</h3>
+          <p><span class="code">let a;</span></p>
+          <p><span class="code">a = 20;</span></p>
+        <h3>Examples of declaring a variable by initializing it</h3>
+          <p><span class="code">let a = 10;</span></p>
+      </section>
+
+      <section class="examples">
+        <h2>Things to consider or look out for</h2>
+          <br>
+          <br>
+        <h3>Undefined errors</h3>
+          <p>This means that there is a variable being declared in our code, but it has no value assigned to it hence the <span class="code">undefined</span>.</p>
+          <p> If by any chance we do a math calculation using it it would give out a <span class="code">"NaN"</span> (Not a Number) error.</p>
+          <br>
+          <br>
+        <h3>Variables are case sensitive</h3>
+          <p>The following variables are not the same:</p>
+          <p><span class="code">var someVariable;</span></p>
+          <p><span class="code">var SomeVariable;</span></p>
+          <p><span class="code">var SOMEVARIABLE;</span></p>
+          <br>
+          <br>
+        <h2>Things to remember</h2>
+          <p>Variables can be declared either by assigning the value in a separate line or declared by initializing it in the same line.</p>
+          <p>Variables declared using the VAR keyword can be re-declared as opposed to LET wich is more constarined to the scope reach</p>
+          <p>Variables that DO NOT change or likely to change throught the whole program is declared using the CONST keyword</p>
+          <p>CONST variables are generally named using all Caps</p>
+      </section>
+    </div>
+  </div>
+
+  <script src="./src/scripts/equalSign.js"></script>
+</body>
+</html>
