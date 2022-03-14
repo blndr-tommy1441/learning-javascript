@@ -19,15 +19,15 @@ numero--;
 // It writes inside the SPAN with ID value the new number
 document.getElementById("value3").innerHTML = numero;
 
-// It creates a global variable "X" and gets the element by the ID of num and returns 
-// function myFunction() {
-//   x = document.getElementById("num").value;
-//   // console.log(x);
-//   return x;
-//   }
+/* It creates a global variable "X" and gets the element by the ID of num and returns 
+function myFunction() {
+  x = document.getElementById("num").value;
+  // console.log(x);
+  return x;
+  }
   
-//   let z = myFunction();
-//   console.log(z);
+  let z = myFunction();
+  console.log(z);*/
 
 
 
