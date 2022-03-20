@@ -33,3 +33,11 @@ console.log(char3);
 // correct way number 3 (mixing quotes)
 let char4 = 'Correct way number 3 to "escape" a character';
 console.log(char4);
+
+
+let char5 = "I am learning: \nJavascript";
+console.log(char5);
+
+let primeraParte = "This is the first part of a string of chatacters, ";
+let segundaParte = "now this is the second part";
+console.log(primeraParte += segundaParte);
