@@ -52,3 +52,11 @@ const leng3 = leng1 + leng2;
 
 console.log(leng1.length);
 console.log(leng3.length);
+
+//TARGET A SPECIFIC CHARACTER IN A STRING
+/* The syntax to target a specific character in a string is by using
+the [] square brackets and the index number we want.
+REMEMBER the index starts at 0
+ */
+leng4 = "Javascript";
+console.log(leng4[leng4.length - 1]);
