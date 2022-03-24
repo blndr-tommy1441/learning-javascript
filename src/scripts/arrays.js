@@ -13,5 +13,6 @@ console.log(arrayName[1]);
 // index  =>                       0                    1
 // internal index =>       0        1      2        0    1     2
 // access internal index => console.log(nestedArray[[0][2]]);
+
 let nestedArray = [["string", 324234, 45352], [3424, 545, 2323]];
 console.log(nestedArray[1][1]);
