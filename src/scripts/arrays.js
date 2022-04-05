@@ -49,9 +49,12 @@ console.log(removedValue);
 // TEST
 let testArray = ["a", "b", "c", "d"];
 console.log(testArray);
+document.getElementById(`test`).innerHTML = testArray;
 testArray.push("e");
 console.log(testArray);
+document.getElementById(`test1`).innerHTML = testArray;
 // here we remove the second element of the array (index number 1)
 // and the amount of elements removed (this case 1 element)
 testArray.splice(1, 1);
 console.log(testArray);
+document.getElementById(`test2`).innerHTML = testArray;
