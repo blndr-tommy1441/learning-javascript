@@ -1,12 +1,14 @@
-// This is an example of the use of the double equal sign
+// The use of the double equal sign is for when we want to compare the values regardless of the type (number or string)
 let a = 10;
 let b = 20;
 let c = "10"
-//returns FALSE because the value is not the same even though the type is the same
+//returns FALSE because the VALUE is not the same even though the TYPE is the same.
 console.log(a==b);
-//returns TRUE because the value is the same even though the type is not
+//returns TRUE because the VALUE is the same even though the TYPE are not the same.
 console.log(a==c);
-// This is an example of the use of the triple equal sign
+
+
+// The use of the triple equal sign is for comparing values and types, if either are different, it returns FALSE.
 let x = 10;
 let y = "10";
 let z = 10;
